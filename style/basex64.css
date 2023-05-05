@@ -1,0 +1,115 @@
+body {
+    background-color: #252525;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 0 0 70px rgba(0,0,0,0.3);
+  }
+  
+  .texto h1 {
+    text-align: center;
+  }
+  
+  .textarea textarea {
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 3px solid #7d49e6;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .botao input[type="submit"], .botao input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #7d49e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .botao input[type="reset"] {
+    background-color: #3543ab;
+  }
+  
+  .link button {
+    background-color: transparent;
+    border: none;
+    color: #7d49e6;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-bottom: 2px solid #7d49e6;
+    transition: color 0.2s;
+  }
+  
+  .link button:hover {
+    color: #3543ab;
+    border-color: #3543ab;
+    text-decoration: none;
+  }
+
+  .link a{
+    color: #7d49e6;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .resposta {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .resultado {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #7d49e6;
+    outline: #3543ab;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .copiar {
+    padding: 10px 20px;
+    background-color: #7d49e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .copiar i {
+    margin-right: 5px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    main {
+      width: 100%;
+    }
+  }
+  
+  section {
+    text-align: center;
+  }
+  
+  .botao, .link {
+    margin-top: 20px;
+  }
+  
